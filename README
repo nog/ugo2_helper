@@ -1,0 +1,27 @@
+Ugo2Helper
+==========
+
+うごくひと2(http://ugo2.jp/)を簡単に使うためのヘルパープラグインです。
+
+
+Example
+=======
+1. Install Ugo2Helper plugin
+
+2. Include this helper in application_helper
+  include Ugo2Helper
+
+3. in your view
+  <%=ugo2_tag server, user, hash, title, ch %>
+  パラメータ説明
+  http://ugo2.jp/home/account/tag/を参照して
+  serverは画像のサーバー名(例:b03.ugo2.jp)
+  userはuというパラメータに渡されている値
+  hashはhというパラメータに渡されている値
+  titleはそのページのタイトルを入れる。
+  chはデフォルトUTF-8,Shift-JISの場合はSJIS,EUCの場合はEUC,JISの場合はJISを入れる
+
+
+
+
+Copyright (c) 2009 Shingo Noguchi(http://cureblack.com/), released under the MIT license
