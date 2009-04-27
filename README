@@ -7,6 +7,7 @@ Ugo2Helper
 Example
 =======
 1. Install Ugo2Helper plugin
+  ./script/plugin install git://github.com/nog/ugo2_helper.git
 
 2. Include this helper in application_helper
   include Ugo2Helper
