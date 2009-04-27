@@ -1,7 +1,7 @@
 Ugo2Helper
 ==========
 
-うごくひと2(http://ugo2.jp/)を簡単に使うためのヘルパープラグインです。
+うごくひと2(http://ugo2.jp/ )を簡単に使うためのヘルパープラグインです。
 
 
 Example
@@ -14,7 +14,7 @@ Example
 3. in your view
   <%=ugo2_tag server, user, hash, title, ch %>
   パラメータ説明
-  http://ugo2.jp/home/account/tag/を参照して
+  http://ugo2.jp/home/account/tag/ を参照して
   serverは画像のサーバー名(例:b03.ugo2.jp)
   userはuというパラメータに渡されている値
   hashはhというパラメータに渡されている値
@@ -24,4 +24,4 @@ Example
 
 
 
-Copyright (c) 2009 Shingo Noguchi(http://cureblack.com/), released under the MIT license
+Copyright (c) 2009 Shingo Noguchi(http://cureblack.com/ ), released under the MIT license
