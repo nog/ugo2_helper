@@ -10,14 +10,19 @@ Example
   ./script/plugin install git://github.com/nog/ugo2_helper.git
 
 2. in your view
-  <%=ugo2_tag server, user, hash, title, ch %>
+  <%=ugo2_tag server, user, hash, title, options %>
   パラメータ説明
   http://ugo2.jp/home/account/tag/ を参照して
   serverは画像のサーバー名(例:b03.ugo2.jp)
   userはuというパラメータに渡されている値
   hashはhというパラメータに渡されている値
   titleはそのページのタイトルを入れる。
-  chはデフォルトUTF-8,Shift-JISの場合はSJIS,EUCの場合はEUC,JISの場合はJISを入れる
+  optionsにはハッシュを入れる
+  キー:chはデフォルトUTF-8,Shift-JISの場合はSJIS,EUCの場合はEUC,JISの場合はJISを入れる
+  キー:utはデフォルト1,法人ユーザーの場合2
+
+  example
+  <%=ugo2_tag "bxx.ugo2.jp", "00000000", "abcdef", "pagetitle", :ch => "SJIS", :ut => 2 %>
 
 
 
