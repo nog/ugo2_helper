@@ -23,6 +23,8 @@ Example
 
   example
   <%=ugo2_tag "bxx.ugo2.jp", "00000000", "abcdef", "pagetitle", :ch => "SJIS", :ut => 2 %>
+  #chにSJIS渡していますが、これはtitleの文字コードなので、基本的にUTF-8です。
+  #Jpmobile等で文字コード変換を行っている場合もURLエンコードする時点ではUTF-8なので、デフォルトのUTF-8のままで大丈夫です。
 
 
 
