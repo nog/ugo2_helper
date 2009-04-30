@@ -9,7 +9,7 @@ module Ugo2Helper
     ch = options[:ch] || "UTF-8"
     ut = options[:ut] || 1
     ut = ut.to_s
-    result =  "http://#{server}/?u=#{user}&h=#{hash}&guid=ON&ut=1"
+    result =  "http://#{server}/?u=#{user}&h=#{hash}&guid=ON&ut=#{ut}"
     result += "&qM=#{phpurlencode(request.referer ? request.referer : '')}|AzR|#{request.port.to_s}|#{phpurlencode(request.host.to_s)}|#{phpurlencode(request.request_uri.to_s)}|Y|"
     result += "&ch=#{ch}"
     result += "&sb=#{phpurlencode(title)}"
