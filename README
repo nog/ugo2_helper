@@ -9,10 +9,7 @@ Example
 1. Install Ugo2Helper plugin
   ./script/plugin install git://github.com/nog/ugo2_helper.git
 
-2. Include this helper in application_helper
-  include Ugo2Helper
-
-3. in your view
+2. in your view
   <%=ugo2_tag server, user, hash, title, ch %>
   パラメータ説明
   http://ugo2.jp/home/account/tag/ を参照して
