@@ -20,7 +20,8 @@ module Ugo2Helper
   def ugo2_tag(server, user, hash, title, options={})
     image_url = make_ugo2_image_url(server, user, hash, title, options)
     size = (options[:ut].to_s == "2") ? "1x1" : "72x16"
-    link_to(
+    link_to_if(
+      options[:ut].to_s == "1",
       image_tag(image_url, :border => '0', :size => size, :alt => '携帯アクセス解析'),
       'http://ugo2.jp/m/'
     )
