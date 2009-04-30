@@ -30,7 +30,7 @@ class Ugo2HelperTest < ActiveSupport::TestCase
     )
 
     assert_equal(
-      "http://b03.ugo2.jp/?u=0000000&h=aaaaaa&guid=ON&ut=1&qM=http%3A%2F%2Fyahoo.co.jp%2F|AzR|80|%2F|Y|&ch=UTF-8&sb=%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%A0%E3%82%88",
+      "http://b03.ugo2.jp/?u=0000000&h=aaaaaa&guid=ON&ut=1&qM=http%3A%2F%2Fyahoo.co.jp%2F|AzR|80|test.host|%2F|Y|&ch=UTF-8&sb=%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E3%81%A0%E3%82%88",
       result
     )
   end
